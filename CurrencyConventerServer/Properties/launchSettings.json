@@ -13,7 +13,7 @@
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "launchUrl": "Conventer",
+      "launchUrl": "api/Conventer",
       "applicationUrl": "https://localhost:7140;http://localhost:5095",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -22,7 +22,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "Conventer",
+      "launchUrl": "api/Conventer",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

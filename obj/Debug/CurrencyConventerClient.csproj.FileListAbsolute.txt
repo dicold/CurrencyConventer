@@ -1,0 +1,16 @@
+C:\Users\hu\source\repos\CurrencyConventerClient\bin\Debug\CurrencyConventerClient.exe.config
+C:\Users\hu\source\repos\CurrencyConventerClient\bin\Debug\CurrencyConventerClient.exe
+C:\Users\hu\source\repos\CurrencyConventerClient\bin\Debug\CurrencyConventerClient.pdb
+C:\Users\hu\source\repos\CurrencyConventerClient\obj\Debug\CurrencyConventerClient.csproj.AssemblyReference.cache
+C:\Users\hu\source\repos\CurrencyConventerClient\obj\Debug\CurrencyConventerClient.csproj.SuggestedBindingRedirects.cache
+C:\Users\hu\source\repos\CurrencyConventerClient\obj\Debug\MainWindow.g.cs
+C:\Users\hu\source\repos\CurrencyConventerClient\obj\Debug\App.g.cs
+C:\Users\hu\source\repos\CurrencyConventerClient\obj\Debug\CurrencyConventerClient_MarkupCompile.cache
+C:\Users\hu\source\repos\CurrencyConventerClient\obj\Debug\CurrencyConventerClient_MarkupCompile.lref
+C:\Users\hu\source\repos\CurrencyConventerClient\obj\Debug\MainWindow.baml
+C:\Users\hu\source\repos\CurrencyConventerClient\obj\Debug\CurrencyConventerClient.g.resources
+C:\Users\hu\source\repos\CurrencyConventerClient\obj\Debug\CurrencyConventerClient.Properties.Resources.resources
+C:\Users\hu\source\repos\CurrencyConventerClient\obj\Debug\CurrencyConventerClient.csproj.GenerateResource.cache
+C:\Users\hu\source\repos\CurrencyConventerClient\obj\Debug\CurrencyConventerClient.csproj.CoreCompileInputs.cache
+C:\Users\hu\source\repos\CurrencyConventerClient\obj\Debug\CurrencyConventerClient.exe
+C:\Users\hu\source\repos\CurrencyConventerClient\obj\Debug\CurrencyConventerClient.pdb
