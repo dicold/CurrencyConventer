@@ -32,19 +32,24 @@ namespace CurrencyConventerClient
                 CurrencyOutcome.Text = "Input string was empty";
             else
             {
-                var client = new HttpClient();
-                var request = new HttpRequestMessage(HttpMethod.Get, $"https://localhost:7140/api/Conventer?number={CurrencyInsert.Text}");
-                var response = await client.SendAsync(request);
-                if (response.IsSuccessStatusCode)
+                try
                 {
-                    response.EnsureSuccessStatusCode();
-                    Console.WriteLine(await response.Content.ReadAsStringAsync());
-                    CurrencyOutcome.Text = await response.Content.ReadAsStringAsync();
+                    var client = new HttpClient();
+                    var request = new HttpRequestMessage(HttpMethod.Get, $"https://localhost:7140/api/Conventer?number={CurrencyInsert.Text}");
+                    var response = await client.SendAsync(request);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        response.EnsureSuccessStatusCode();
+                        CurrencyOutcome.Text = await response.Content.ReadAsStringAsync();
+                    }
+                    else
+                    {
+                        CurrencyOutcome.Text = await response.Content.ReadAsStringAsync();
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    Console.WriteLine(response.StatusCode);
-                    CurrencyOutcome.Text = await response.Content.ReadAsStringAsync();
+                    CurrencyOutcome.Text = ex.Message;
                 }
             }
         }
